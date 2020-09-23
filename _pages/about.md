@@ -6,6 +6,6 @@ image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-Hi there,
-
-Thanks for stopping by. I am a passionate software developer who cares deeply about the craft.
+Hi! I'm Maulid Abdullahi.
+I currently work full-time as a Software Engineer, and I am passionate about building great software.
+This is my personal website where I share everything I know.
