@@ -1,13 +1,13 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Maulid
 logo: 
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+author: maulid
+description: Portfolio site for Maulid Abdullahi
+email: maulidabdullahi3@email.com
+phone: +254 720 304 574
+address: Nairobi, Kenya
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
@@ -38,7 +38,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Maulid Abdullahi <br> Software Developer
 
 social:
 - {icon: "ti-facebook", link: "#"}
@@ -49,10 +49,13 @@ social:
 
 #-------------------------------
 # About (Section and Page)
+Hi! I'm Maulid Abdullahi.
+I currently work full-time as a Software Engineer, and I am passionate about building great software.
+This is my personal website where I share everything I know.
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Passionate Software Dev
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -96,9 +99,9 @@ team:
 skills-title: Skills
 skills:
 - {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Frontend Development, color: '#9473e6', value: '100%'}
+- {name: Backend Development, color: '#bdecf6', value: '95%'}
+- {name: Web Scraping, color: '#ffbcaa', value: '99%'}
 
 
 #-------------------------------
@@ -106,7 +109,7 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
+- {name: Software Engineer, icon: 'icon-1.png', date: 'Jan 2017 - Present', organization: 'Tracom Services Limited'}
 - {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
 - {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
 
@@ -116,10 +119,7 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Bsc. Computer Science , date: '2018', organization: 'University of Nairobi'}
 
 
 #-------------------------------
@@ -128,22 +128,22 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
+    name: Frontend Development,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
+    description: 'React |React Native | HTML/CSS| JavaScript',
+    active: true
   }
 - {
-    name: UX Design,
+    name: Backend Development,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Python | Flask | Django |Java/Spring',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: Web Scraping,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
+    description: 'Data mining/scraping using primarily Python/Scrapy',
+    active: true
   }
 
 
@@ -172,40 +172,34 @@ portfolio-home-items:
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "FrontEnd",
+    type : "frontend"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "Backend",
+    type : "backend"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "Web Scraping",
+    type : "scraping"
   }
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
+     - type: "frontend"
       
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
     portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
+      - type: "backend"
       
   - image : "assets/images/portfolio/item-6.png"
     url: "#"
     portfolio-type:
       - type: "design"
-      - type: "branding"
+      - type: "scraping"
       
   - image : "assets/images/portfolio/item-8.png"
     url: "#"
@@ -238,27 +232,27 @@ portfolio-items:
 #-------------------------------
 # Testimonials Section
 
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+# testimonial-items:
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation : "CEO, Funder"
+#     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+#   - name: "Jesica Gomez"
+#     image: "assets/images/testimonial/client-1.png"
+#     designation: "CEO, Funder"
+#     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
+# client-slider-items:
   - logo: "assets/images/clients-logo/client-logo-1.png"
     url: "#"
     
@@ -293,4 +287,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: maulidabdullahi3@gmail.com
